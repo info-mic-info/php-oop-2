@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.card-con {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.card {
+    margin: 3em;
+    width: calc(100% / 3 - 6em);
+}
+
+
